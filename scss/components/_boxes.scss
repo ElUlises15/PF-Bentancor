@@ -1,0 +1,51 @@
+.miniMap {
+  width: 100%;
+  height: 70vh;
+}
+.containerMap {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.containerCard {
+  @include card(80vw, 100vh);
+  img {
+    height: 70rem;
+    width: 150rem;
+    padding: 2rem;
+    border-radius: 5rem;
+  }
+  p {
+    padding: 2rem;
+  }
+}
+
+.boxNegra {
+  @include box(80vw, 100vh);
+  h3 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  p {
+    padding: 2rem;
+  }
+}
+.conteinerGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 90vw;
+  margin: 3rem;
+  justify-content: space-around;
+  border: solid 0.3rem $color-blanco;
+  background: linear-gradient(90deg, $color-negro 10%, $color-gris 73%);
+  img {
+    width: 60rem;
+    padding: 2rem;
+  }
+}

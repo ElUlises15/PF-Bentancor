@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(90deg, $color-verde 10%, $color-verde-claro 73%);
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.tituloPrincipal {
+  font-size: 10rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+}
+
+h2 {
+  font-size: 5rem;
+  background-color: $color-negro;
+  font-weight: 400;
+  text-align: center;
+  padding: 3rem;
+}
+
+.conteinerRedes {
+  display: flex;
+  margin: 10rem;
+  justify-content: space-around;
+  a {
+    img {
+      border-radius: 25%;
+      width: 40rem;
+      transition: all 900ms ease;
+    }
+  }
+  img:hover {
+    box-shadow: 0 0 1rem 1rem rgba(#fff, 0.3);
+    transform: translateY(-5%);
+  }
+}
